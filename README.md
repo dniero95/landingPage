@@ -1,2 +1,2 @@
 # landingPage
-landing paga for tomorrowDevs
+landing page for tomorrowDevs
