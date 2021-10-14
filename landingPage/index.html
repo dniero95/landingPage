@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d8556f3f3.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- informazioni di contatto  -->
+    <header>
+        <span class="header-left"><strong>Question? Need help?</strong> call us on (+123)456 1500</span>
+        <span class="header-right1">
+          <i class="fas fa-gift"></i>&nbsp&nbsp&nbsp BTP Gift Card
+          <i class="far fa-star"></i>&nbsp&nbsp&nbsp Loyalty Program
+        </span>
+    </header>
+
+    <!-- barra di navigazione -->
+    <nav id="navbar">
+        <div id="sup">
+
+            <h1 id="nav-title">BEST <span class="red-word">TOUR </span>PLAN</h1>
+
+            <div class="searchbar">
+                <input type="text" placeholder="Search Location">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <i id = "cart" class="fas fa-shopping-cart"></i>
+            
+            <div class="profilo">
+                <div>
+                    <img src="img/dario niero fotoprofilo.png" id = "profilePhoto"alt="Foto profilo"> 
+                </div>
+                <div id="username">Borgiak</div>
+                <div class="dropdown">
+                    <i class="far   fa-caret-square-down"></i>
+                    <div id="dropdown-user-content">Account</div>
+                    <div id="dropdown-user-content">test</div>
+                    <div id="dropdown-user-content">test</div>
+                </div>  
+            </div>
+        </div>
+        <div id="inf">
+            <ul>
+                <li>ALL DEALS</li>
+                <li>HOTELS</li>
+                <li>ACTIVITIES</li>
+                <li>HOTEL DAY PACKAGES</li>
+                <li>RESTAURANTS</li>
+                <li>EVENTS</li>
+                <li>RODRIGUES</li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Parte principale della pagina -->
+    <main>
+        <div class="title-block">
+            <div id="left-title">
+                <p class="path">Home/Flash Offers/Grand Hilton Hotel</p>
+                <span id="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <div id="title">
+                    <h1><strong>GRAND HILTON HOTEL</strong></h1>
+                    <span class="pink-box">Flash Offers</span>
+                </div>
+                <span class="path">Half-Board/Complimentary Activities + Child Stays Free</span>
+            </div>
+
+            <div id="right-title" class="pink-box"><span>User Ratings</span> <span><strong>4.5/<sub>5</sub></strong></span></div>
+        </div>
+
+        <section class="gallery-option-map">
+            
+            <!-- galleria immagini -->
+            <div id="gallery"></div>
+
+            <!-- opzioni di prenotazione -->
+            <div id="booking-option">
+                
+                <div id="booking-option-left">
+                    <p>price starts as<br><span class="highlight">$ 8,500</span><br>per room/night</p>
+                    
+                </div>
+
+                <div id="booking-option-right">
+                    <p><i class="far fa-user"></i> 2 x Guests</p>
+                    <p><i class="fas fa-hotel"></i> 1 x room</p> 
+                    
+                </div>
+                <div id= "quick-booking" class="booking-option-footer">
+                    <span class= "highlight">Quick Booking</span>
+                    <span class ="highlight"><i class="fas fa-phone"></i> 12100</span>
+                </div>
+                
+                <div class="booking-option-footer pink-box">
+                    View Other Options
+                </div>
+
+            </div>
+
+            <!-- posizion geografica dell'hotel -->
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11183.821626425253!2d12.16529885!3d45.5109763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1632779572772!5m2!1sit!2sit" style="border: 5px;;" allowfullscreen="true" loading="lazy"></iframe>
+            </div>
+            
+        </section>
+
+        <nav class="product-navbar">
+            <ul>
+                <li>Package Summery</li>
+                <li>Hotel Information</li>
+                <li>Rooms</li>
+                <li>Facilities & Activities</li>
+                <li>Dining & Entertainment</li>
+                <li>Reviews</li>
+                <li>Question & Answers</li>
+            </ul>
+        </nav>
+
+    <!-- Elementi del Footer -->
+        <footer>
+            <h1><strong>PACKAGE SUMMERY</strong></h1>
+
+            
+            <div class="package-summery-box">
+                <h3 class="package-summery-box-title">Package highlights</h3>
+                <ul>
+                    <li>Half Board/All Inclusive</li>
+                    <li>Child Under 11 Years Stay Free</li>
+                    <li>Lux* Me Spa</li>
+                    <li>Luxurious 5-Star Hotel</li>
+                    <li>Banyan An Adult Only Zone</li>
+                </ul>
+            </div>
+            
+            <div class="package-summery-box">
+                <h3 class="package-summery-box-title">Offer Details</h3>
+                <ul>
+                    <li>Benefit From a special discounted CHILL'OUT OFFER at Grand Hilton Hotel</li>
+                    <li id="valid">10th March - 30th April 2021</li>
+                </ul>
+            </div>
+            
+            
+            <div id="last-div">
+                <h3 id="last-element" class="package-summery-box-title" ><strong>Package Summery Details</strong></h3>
+            </div>
+        </footer>
+</main>
+</body>
+</html>
