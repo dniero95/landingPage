@@ -1,0 +1,168 @@
+
+body{
+  background-color: #f5fafe;
+  font-family: 'Roboto', sans-serif;
+  margin: 0%;
+  /* 
+  prima di flex
+  background-color: #f5fafe;
+  font-family: arial, sans-serif;
+  font-weight: 50;
+  position: relative; */
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  line-height: 55px;
+  /*prima di flex
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 55px;
+  line-height: 55px;
+  */
+}
+
+#upper-nav {
+  background-color: white;
+  padding: 0px 10% 0 10%;
+  margin: auto 0px auto 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "header"
+  "footer";
+  
+}
+#title{
+  font-family: 'Abril Fatface', cursive;
+}
+#red-word{
+  color: red;
+}
+#profilePhoto{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.sub-header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sub-footer {
+  background-color: #0a223d;
+  color: white;
+  list-style-type: none;
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  transform: translate(-10%);
+}
+.searchbar{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar > input{
+  background-color: #f5fafe;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 0px;
+  border: 0px;
+  height: 30px;
+}
+.searchbar > button {
+  background-color: #ec1f46;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: 0px;
+  border: 0px;
+  height: 30px;
+}
+
+header > p{
+  /* prima di flex
+  position: relative; */
+}
+.header-left{
+  /*prima di flex
+  
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  text-align: left;
+  width: 50%; */
+}
+.header-right1{
+  /* prima di flex
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+  text-align: right;
+  width: 50%; */
+}
+.header-right2{
+  /* prima di flex
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  width: 50%; */
+}
+
+#upper-nav{
+  /*prima di flex 
+  width: 100vw; */
+  
+}
+#upper-nav > div{
+  /*prima di flex 
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  height: 110px; */
+}
+#upper-nav > ul{
+  /* prima di flex 
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 55px;
+  background-color: #0a223d;
+  color: white;
+  text-align: center;
+  line-height: 55px; */
+}
+ul > li {
+  /*prima di flex 
+  display: inline; */
+}
+
+.pink-box{
+  border-radius: 5px;
+  background-color: #ec1f46;
+  color: white;
+  text-align: center;
+  text-decoration-style: solid;
+  font-weight: 100;
+}
+
+.purchase-option{
+  border-radius: 5px;
+  background-color: #0a223d;
+  color: white;
+  padding: 25px;
+}
+
+.hotel-gallery{
+  border-radius: 5px;
+  background-image: url(img/imgHotel.jpg);
+  width: 500px;
+  height: 500px;
+}
